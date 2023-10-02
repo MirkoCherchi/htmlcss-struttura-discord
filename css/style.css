@@ -38,6 +38,17 @@ debug
     padding-right: 15px;
 }
 
+.debug .header-blocco2{
+    height: 520px;
+    background-color: #00008b;
+}
+
+.debug .header-big{
+    background-color: #ee82ee;
+    height: 415px;
+    border: 2px dashed black;
+}
+
 
 
 /*
@@ -76,6 +87,13 @@ header
     display: flex;
     justify-content: end;
     }
+
+    .header-big{
+        width: 945px;
+        margin: 0 auto;
+    }
+
+    .header-blocco2{padding: 52px;}
 
 
 /*
