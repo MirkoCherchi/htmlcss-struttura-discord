@@ -50,27 +50,48 @@ debug
 }
 
 .debug .main1{
-    background-color: red;
+    background-color: white;
     height: 630px;
 }
 
 .debug .main1-left{
     background-color: #1e90ff;
     height: 520px;
-    border: 1px dashed black;
+    border: 2px dashed black;
 
 }
 .debug .main1-right{
     background-color: #ffc0cb;
     height: 520px;
-    border: 1px dashed black;
+    border: 2px dashed black;
 
 }
 
 .debug .container-main1{
     height: 520px;
-    
 
+}
+
+.debug .main2{
+    background-color: #d3d3d3;
+    height: 630px;
+}
+
+.debug .main2-left{
+    background-color: #1e90ff;
+    height: 520px;
+    border: 2px dashed black;
+
+}
+.debug .main2-right{
+    background-color: #ffc0cb;
+    height: 520px;
+    border: 2px dashed black;
+
+}
+
+.debug .container-main2{
+    height: 520px;
 }
 
 
@@ -134,7 +155,7 @@ main
 */
 
 .main1{
-    padding: 53px;
+    padding: 54px;
 }
 .container-main1{
     display: flex;
@@ -151,6 +172,31 @@ main
 }
 
 .main1-right{
+    width: calc(100% - 750px);
+    
+    
+}
+.main2{
+    padding: 54px;
+}
+.container-main2{
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+
+    
+    
+    
+
+}
+
+.main2-left{
+    width: 750px;
+    
+}
+
+.main2-right{
     width: calc(100% - 750px);
     
     
