@@ -49,6 +49,29 @@ debug
     border: 2px dashed black;
 }
 
+.debug .main1{
+    background-color: red;
+    height: 630px;
+}
+
+.debug .main1-left{
+    background-color: #1e90ff;
+    height: 520px;
+    border: 1px dashed black;
+
+}
+.debug .main1-right{
+    background-color: #ffc0cb;
+    height: 520px;
+    border: 1px dashed black;
+
+}
+
+.debug .container-main1{
+    height: 520px;
+    
+
+}
 
 
 /*
@@ -93,7 +116,15 @@ header
         margin: 0 auto;
     }
 
-    .header-blocco2{padding: 52px;}
+    .header-blocco2{ 
+        padding: 52px;
+    }
+
+    /*
+**********
+/header
+**********
+*/
 
 
 /*
@@ -101,6 +132,33 @@ header
 main
 **********
 */
+
+.main1{
+    padding: 53px;
+}
+.container-main1{
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+    
+    
+
+}
+
+.main1-left{
+    width: 750px;
+    
+}
+
+.main1-right{
+    width: calc(100% - 750px);
+    
+    
+}
+
+
+
+
 
 /*
 **********
