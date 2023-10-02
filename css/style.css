@@ -4,17 +4,79 @@ common
 **********
 */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*
 **********
 debug 
 **********
 */
+.debug .header-blocco1{
+    background-color: #add8e6;
+    height: 85px;
+}
+
+.debug .header-intestazioni{
+    height: 45px;
+}
+
+.debug .header-logo{
+    border: 2px dashed black;
+    padding-left: 15px;
+}
+
+.debug .header-link{
+    border: 2px dashed black;     
+}
+
+.debug .header-login{
+    border: 2px dashed black; 
+    padding-right: 15px;
+}
+
+
 
 /*
 **********
 header
 **********
 */
+.header-intestazioni{
+    background-color: #daa520;
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.header-blocco1{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.header-logo{
+    width: 250px;
+    align-items: center;
+    display: flex;   
+}
+
+.header-link{
+    width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    
+    .header-login{
+        width: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    }
+
 
 /*
 **********
