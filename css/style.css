@@ -17,7 +17,7 @@ debug
 */
 .debug .header-blocco1{
     background-color: #add8e6;
-    height: 85px;
+    
 }
 
 .debug .header-intestazioni{
@@ -137,6 +137,7 @@ header
 .header-blocco1{
     width: 100%;
     padding-top: 20px;
+    height: 85px;
 }
 
 .header-logo{
@@ -166,6 +167,7 @@ header
 
     .header-blocco2{ 
         padding: 52px;
+        height: 520px;
     }
 
     /*
@@ -184,6 +186,7 @@ main
 
 .main1, .main3{
     padding: 54px;
+    height: 630px;
 }
 
 .container-main1, .container-main3{
@@ -202,6 +205,7 @@ main
 
 .main2{
     padding: 54px;
+    height: 625px;
 }
 
 .container-main2{
@@ -228,6 +232,9 @@ main
     width: 1250px;
     margin: 0 auto;
     padding-bottom: 52px;
+}
+.main4{
+    height: 1040px;
 }
 
 /*
@@ -269,4 +276,55 @@ padding-top: 10px;
     width: calc(100% / 4);
     border: 2px dashed white;
 }
+
+.container-footer2{
+    height: 115px;
+    background-color: #23272a;
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: end;
+
+}
+
+.footer2{
+    background-color: #7fffd4;
+    height: 85px;
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer{
+background-color: #ffb6c1;
+height: 40px;
+width: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px dashed black;
+font-size: 20px;
+
+}
+
+.bottone{
+    background-color: #ffb6c1;
+height: 40px;
+width: 95px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px dashed black;
+font-size: 20px;
+
+}
+
+/*
+**********
+/footer 
+**********
+*/
+
    
