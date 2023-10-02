@@ -56,13 +56,13 @@ debug
 
 .debug .main1-left, .main3-left{
     background-color: #1e90ff;
-    height: 520px;
+    
     border: 2px dashed black;
 
 }
 .debug .main1-right, .main3-right{
     background-color: #ffc0cb;
-    height: 520px;
+    
     border: 2px dashed black;
 
 }
@@ -74,7 +74,7 @@ debug
 
 .debug .main2{
     background-color: #d3d3d3;
-    height: 630px;
+    
 }
 
 .debug .main2-left{
@@ -92,6 +92,19 @@ debug
 
 .debug .container-main2{
     height: 520px;
+}
+
+.debug .main-big{
+    background-color: #228b22;
+    height: 935px;
+    border: 2px dashed black;
+
+}
+
+.main4{
+    background-color: #d3d3d3;
+    height: 1040px;
+    
 }
 
 
@@ -154,6 +167,7 @@ main
 **********
 */
 
+
 .main1, .main3{
     padding: 54px;
 }
@@ -200,6 +214,17 @@ main
     width: calc(100% - 750px);
     
     
+}
+
+.main-big{
+    width: 1250px;
+    
+}
+.container-main4{
+    padding-top: 52px;
+    width: 1250px;
+    margin: 0 auto;
+
 }
 
 
