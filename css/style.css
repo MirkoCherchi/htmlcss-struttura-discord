@@ -67,7 +67,7 @@ debug
 
 }
 
-.debug .container-main1, .container-main3{
+.debug .container-main1, .container-main3, .debug .container-main2{
     height: 520px;
 
 }
@@ -88,10 +88,6 @@ debug
     height: 520px;
     border: 2px dashed black;
 
-}
-
-.debug .container-main2{
-    height: 520px;
 }
 
 .debug .main-big{
